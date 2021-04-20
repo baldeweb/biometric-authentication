@@ -1,7 +1,6 @@
 package com.example.android.biometricauth
 
 import android.content.SharedPreferences
-import android.hardware.fingerprint.FingerprintManager
 import android.os.Bundle
 import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyPermanentlyInvalidatedException

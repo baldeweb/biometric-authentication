@@ -3,13 +3,13 @@ package com.example.android.biometricauth
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.preference.PreferenceManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import androidx.biometric.BiometricPrompt
 import androidx.fragment.app.DialogFragment
+import androidx.preference.PreferenceManager
 import com.example.android.biometricauth.MainActivity.Companion.DEFAULT_KEY_NAME
 import com.example.android.biometricauth.databinding.FingerprintDialogContainerBinding
 

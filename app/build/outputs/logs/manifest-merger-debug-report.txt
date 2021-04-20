@@ -1,0 +1,183 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:17:1-43:12
+INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:17:1-43:12
+INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:17:1-43:12
+INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:17:1-43:12
+MERGED from [androidx.databinding:viewbinding:4.1.3] /Users/wallace/.gradle/caches/transforms-2/files-2.1/64a11fdc278561de5d78e5bcbe5e658a/jetified-viewbinding-4.1.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/2c6ae42c82c147ac82b98d3a52a2531d/biometric-1.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/8e0a164398b7d6dacc7a2fb7142be0c8/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/1531fb1c51a1290ae65df4d104a08625/jetified-fragment-ktx-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/818a8ca00c396c2a75c8d5e131d18a45/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/d8f137a5aaec9aee031348d98c86a263/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/108fa1ae10b3ead964a64ad22935d556/fragment-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/dd450999685db3c13dba7b0734f1de75/jetified-activity-ktx-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/395faf80a2c844c4f7d48245fbea0954/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/5969ca2e3b2a44dce36474c3eb6e2c0f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/98bf9f26db8d3fa4f1d5eb4bcd998e39/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/2c128e7602d6bb34e9a85ebe44318369/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/a19ff9ce22cf45de56e0d74e5842eaf3/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/fda9a779c665d85f2d37bf54b051c857/jetified-activity-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/b2015d663f7153641c4a535ba3e220fc/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/68600a5be4367d49d50b69b04e4caf8f/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/b829576802764278d934e69c98584a66/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/bf9232b0ae0799f4d144928ab679e4bd/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/5c4ee559569d2f85280081bfb63ee022/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/bb1999d8bf0b346f6438e7c8690605b4/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/26ea76042ea9feeb3fe228d03e757996/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/894b14e07c7b73000dfcb99a088a6b27/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/a1817f7b3a308222d143cc0b7ad6994c/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/0dcba2b8ac39fe06c4345ecc5a9b9436/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/efbbe0368b31fe1ba8487b240152aef4/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/547138c3b2f282d197afda0b09eab275/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/bd73a81602e51625f24b8c2afc16b342/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/0123e8b3782ac19853ff8bfa9b0b0a7a/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/19102a935862607a2ba809ba34d06223/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/a334c153dd77f93858fd0f3d4217f1f7/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/23428094485d958ca9d7035706a63874/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/380000889ca214510e444c2aff0b07c0/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:17:1-43:12
+INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:17:1-43:12
+INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:17:1-43:12
+	package
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:17:11-54
+		INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:21:5-30
+		INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:19:5-51
+	xmlns:android
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:18:5-63
+	android:versionCode
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:20:5-28
+		INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:23:5-74
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/2c6ae42c82c147ac82b98d3a52a2531d/biometric-1.1.0/AndroidManifest.xml:27:5-74
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/2c6ae42c82c147ac82b98d3a52a2531d/biometric-1.1.0/AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:23:22-71
+application
+ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:25:5-42:19
+MERGED from [androidx.core:core:1.3.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/68600a5be4367d49d50b69b04e4caf8f/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/68600a5be4367d49d50b69b04e4caf8f/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/bf9232b0ae0799f4d144928ab679e4bd/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/bf9232b0ae0799f4d144928ab679e4bd/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/68600a5be4367d49d50b69b04e4caf8f/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:28:9-49
+	tools:ignore
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:31:9-48
+	android:icon
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:27:9-43
+	android:allowBackup
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:30:9-53
+activity#com.example.android.biometricauth.MainActivity
+ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:33:9-41:20
+	android:label
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:35:13-53
+	android:theme
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:36:13-69
+	android:name
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:34:13-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml:39:27-74
+uses-sdk
+INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.1.3] /Users/wallace/.gradle/caches/transforms-2/files-2.1/64a11fdc278561de5d78e5bcbe5e658a/jetified-viewbinding-4.1.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.3] /Users/wallace/.gradle/caches/transforms-2/files-2.1/64a11fdc278561de5d78e5bcbe5e658a/jetified-viewbinding-4.1.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/2c6ae42c82c147ac82b98d3a52a2531d/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/2c6ae42c82c147ac82b98d3a52a2531d/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/8e0a164398b7d6dacc7a2fb7142be0c8/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/8e0a164398b7d6dacc7a2fb7142be0c8/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/1531fb1c51a1290ae65df4d104a08625/jetified-fragment-ktx-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/1531fb1c51a1290ae65df4d104a08625/jetified-fragment-ktx-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/818a8ca00c396c2a75c8d5e131d18a45/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/818a8ca00c396c2a75c8d5e131d18a45/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/d8f137a5aaec9aee031348d98c86a263/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/d8f137a5aaec9aee031348d98c86a263/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/108fa1ae10b3ead964a64ad22935d556/fragment-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/108fa1ae10b3ead964a64ad22935d556/fragment-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/dd450999685db3c13dba7b0734f1de75/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/dd450999685db3c13dba7b0734f1de75/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/395faf80a2c844c4f7d48245fbea0954/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/395faf80a2c844c4f7d48245fbea0954/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/5969ca2e3b2a44dce36474c3eb6e2c0f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/5969ca2e3b2a44dce36474c3eb6e2c0f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/98bf9f26db8d3fa4f1d5eb4bcd998e39/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/98bf9f26db8d3fa4f1d5eb4bcd998e39/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/2c128e7602d6bb34e9a85ebe44318369/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/2c128e7602d6bb34e9a85ebe44318369/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/a19ff9ce22cf45de56e0d74e5842eaf3/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/a19ff9ce22cf45de56e0d74e5842eaf3/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/fda9a779c665d85f2d37bf54b051c857/jetified-activity-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/fda9a779c665d85f2d37bf54b051c857/jetified-activity-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/b2015d663f7153641c4a535ba3e220fc/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/b2015d663f7153641c4a535ba3e220fc/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/68600a5be4367d49d50b69b04e4caf8f/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/wallace/.gradle/caches/transforms-2/files-2.1/68600a5be4367d49d50b69b04e4caf8f/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/b829576802764278d934e69c98584a66/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/b829576802764278d934e69c98584a66/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/bf9232b0ae0799f4d144928ab679e4bd/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/bf9232b0ae0799f4d144928ab679e4bd/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/5c4ee559569d2f85280081bfb63ee022/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/5c4ee559569d2f85280081bfb63ee022/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/bb1999d8bf0b346f6438e7c8690605b4/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/bb1999d8bf0b346f6438e7c8690605b4/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/26ea76042ea9feeb3fe228d03e757996/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/26ea76042ea9feeb3fe228d03e757996/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/894b14e07c7b73000dfcb99a088a6b27/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/894b14e07c7b73000dfcb99a088a6b27/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/a1817f7b3a308222d143cc0b7ad6994c/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/a1817f7b3a308222d143cc0b7ad6994c/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/0dcba2b8ac39fe06c4345ecc5a9b9436/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/0dcba2b8ac39fe06c4345ecc5a9b9436/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/efbbe0368b31fe1ba8487b240152aef4/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/efbbe0368b31fe1ba8487b240152aef4/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/547138c3b2f282d197afda0b09eab275/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/547138c3b2f282d197afda0b09eab275/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/bd73a81602e51625f24b8c2afc16b342/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/bd73a81602e51625f24b8c2afc16b342/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/0123e8b3782ac19853ff8bfa9b0b0a7a/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/0123e8b3782ac19853ff8bfa9b0b0a7a/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/19102a935862607a2ba809ba34d06223/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/19102a935862607a2ba809ba34d06223/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/a334c153dd77f93858fd0f3d4217f1f7/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/wallace/.gradle/caches/transforms-2/files-2.1/a334c153dd77f93858fd0f3d4217f1f7/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/23428094485d958ca9d7035706a63874/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/23428094485d958ca9d7035706a63874/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/380000889ca214510e444c2aff0b07c0/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/380000889ca214510e444c2aff0b07c0/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [androidx.biometric:biometric:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/2c6ae42c82c147ac82b98d3a52a2531d/biometric-1.1.0/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] /Users/wallace/.gradle/caches/transforms-2/files-2.1/2c6ae42c82c147ac82b98d3a52a2531d/biometric-1.1.0/AndroidManifest.xml:24:22-69

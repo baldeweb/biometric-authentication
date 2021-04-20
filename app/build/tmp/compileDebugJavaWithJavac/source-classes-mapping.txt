@@ -1,0 +1,6 @@
+com/example/android/biometricauth/databinding/FingerprintDialogContainerBinding.java
+ com.example.android.biometricauth.databinding.FingerprintDialogContainerBinding
+com/example/android/biometricauth/databinding/ActivityMainBinding.java
+ com.example.android.biometricauth.databinding.ActivityMainBinding
+com/example/android/biometricauth/BuildConfig.java
+ com.example.android.biometricauth.BuildConfig

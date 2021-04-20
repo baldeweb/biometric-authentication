@@ -1,4 +1,4 @@
-#Mon Apr 19 22:43:05 BRT 2021
+#Mon Apr 19 23:03:04 BRT 2021
 base.0=/Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

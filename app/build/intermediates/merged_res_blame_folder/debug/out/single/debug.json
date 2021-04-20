@@ -48,10 +48,6 @@
         "source": "/Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/res/drawable-xxhdpi/ic_fp_40px.png"
     },
     {
-        "merged": "/Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/build/intermediates/res/merged/debug/xml_preferences.xml.flat",
-        "source": "/Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/res/xml/preferences.xml"
-    },
-    {
         "merged": "/Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/build/intermediates/res/merged/debug/drawable_ic_fingerprint_success.xml.flat",
         "source": "/Users/wallace/AndroidStudioProjects/security-samples/BiometricAuthentication/app/src/main/res/drawable/ic_fingerprint_success.xml"
     },

@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
-import androidx.biometric.BiometricPrompt
 import androidx.fragment.app.DialogFragment
 import androidx.preference.PreferenceManager
 import com.example.android.biometricauth.MainActivity.Companion.DEFAULT_KEY_NAME
@@ -94,9 +93,4 @@ class FingerprintAuthenticationDialogFragment : DialogFragment() {
      * @return true if `password` is correct, false otherwise
      */
     private fun checkPassword(password: String) = password.isNotEmpty()
-
-    interface Callback {
-        fun onPurchased(withBiometrics: Boolean, crypto: BiometricPrompt.CryptoObject? = null)
-        fun createKey(keyName: String, invalidatedByBiometricEnrollment: Boolean = true)
-    }
 }

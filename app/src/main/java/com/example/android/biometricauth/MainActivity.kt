@@ -51,16 +51,15 @@ class MainActivity : AppCompatActivity(), Callback {
     private fun setupBiometricPrompt() {
         val (defaultCipher: Cipher, cipherNotInvalidated: Cipher) = setupCiphers()
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this)
-        biometricPrompt = createBiometricPrompt(this, { errorCode, errString ->
-            Log.d(TAG, "$errorCode :: $errString")
-            if (errorCode == BiometricPrompt.ERROR_NEGATIVE_BUTTON) {
-                loginWithPassword() // Because negative button says use application password
-            }
-        }, {
-        }, {
-            Log.d(TAG, "Authentication was successful")
-            onPurchased(true, it.cryptoObject)
-        }
+        biometricPrompt = createBiometricPrompt(this,
+                onAuthenticationError = { errorCode, errString ->
+                    Log.d(TAG, "$errorCode :: $errString")
+                    if (errorCode == BiometricPrompt.ERROR_NEGATIVE_BUTTON)
+                        loginWithPassword() // Because negative button says use application password
+                }, onAuthenticationSucceeded = {
+                    Log.d(TAG, "Authentication was successful")
+                    onPurchased(true, it.cryptoObject)
+                }
         )
         setUpPurchaseButtons(cipherNotInvalidated, defaultCipher)
     }
@@ -96,55 +95,6 @@ class MainActivity : AppCompatActivity(), Callback {
         }
     }
 
-    /**
-     * Proceed with the purchase operation
-     *
-     * @param withBiometrics `true` if the purchase was made by using a fingerprint
-     * @param crypto the Crypto object
-     */
-    override fun onPurchased(withBiometrics: Boolean, crypto: BiometricPrompt.CryptoObject?) {
-        if (withBiometrics) {
-            // If the user authenticated with fingerprint, verify using cryptography and then show
-            // the confirmation message.
-            crypto?.cipher?.let {
-                tryEncrypt(it, { cipher ->
-                    showConfirmation(cipher.doFinal(SECRET_MESSAGE.toByteArray()))
-                }, { exception ->
-                    Toast.makeText(this, "Failed to encrypt the data with the generated key. "
-                            + "Retry the purchase", Toast.LENGTH_LONG).show()
-                    Log.e(TAG, "Failed to encrypt the data with the generated key. ${exception.message}")
-                })
-            }
-        } else {
-            // Authentication happened with backup password. Just show the confirmation message.
-            showConfirmation()
-        }
-    }
-
-    // Show confirmation message. Also show crypto information if fingerprint was used.
-    private fun showConfirmation(encrypted: ByteArray? = null) {
-        binding.confirmationMessage.visibility = View.VISIBLE
-        if (encrypted != null) {
-            binding.encryptedMessage.apply {
-                visibility = View.VISIBLE
-                text = Base64.encodeToString(encrypted, 0)
-            }
-        }
-    }
-
-    /**
-     * Creates a symmetric key in the Android Key Store which can only be used after the user has
-     * authenticated with a fingerprint.
-     *
-     * @param keyName the name of the key to be created
-     * @param invalidatedByBiometricEnrollment if `false` is passed, the created key will not be
-     * invalidated even if a new fingerprint is enrolled. The default value is `true` - the key will
-     * be invalidated if a new fingerprint is enrolled.
-     */
-    override fun createKey(keyName: String, invalidatedByBiometricEnrollment: Boolean) {
-        KeyStoreUtils.createKey(keyStore, keyGenerator, keyName, invalidatedByBiometricEnrollment)
-    }
-
     private fun loginWithPassword() {
         FingerprintAuthenticationDialogFragment().apply {
             setCallback(this@MainActivity)
@@ -161,5 +111,47 @@ class MainActivity : AppCompatActivity(), Callback {
         } else {
             loginWithPassword()
         }
+    }
+
+    // Show confirmation message. Also show crypto information if fingerprint was used.
+    private fun showConfirmation(encrypted: ByteArray? = null) {
+        binding.confirmationMessage.visibility = View.VISIBLE
+        if (encrypted != null) {
+            binding.encryptedMessage.apply {
+                visibility = View.VISIBLE
+                text = Base64.encodeToString(encrypted, 0)
+            }
+        }
+    }
+
+    override fun onPurchased(withBiometrics: Boolean, crypto: BiometricPrompt.CryptoObject?) {
+        if (withBiometrics) {
+            // If the user authenticated with fingerprint, verify using cryptography and then show
+            // the confirmation message.
+            crypto?.cipher?.let {
+                tryEncrypt(it, { cipher ->
+                    showConfirmation(cipher.doFinal(SECRET_MESSAGE.toByteArray()))
+                }, { exception ->
+                    Toast.makeText(this, "Failed to encrypt the data with the generated key. "
+                            + "Retry the purchase", Toast.LENGTH_LONG).show()
+                    Log.e(TAG, "Failed to encrypt the data with the generated key. ${exception.message}")
+                })
+            }
+        } else {
+            showConfirmation()
+        }
+    }
+
+    /**
+     * Creates a symmetric key in the Android Key Store which can only be used after the user has
+     * authenticated with a fingerprint.
+     *
+     * @param keyName the name of the key to be created
+     * @param invalidatedByBiometricEnrollment if `false` is passed, the created key will not be
+     * invalidated even if a new fingerprint is enrolled. The default value is `true` - the key will
+     * be invalidated if a new fingerprint is enrolled.
+     */
+    override fun createKey(keyName: String, invalidatedByBiometricEnrollment: Boolean) {
+        KeyStoreUtils.createKey(keyStore, keyGenerator, keyName, invalidatedByBiometricEnrollment)
     }
 }

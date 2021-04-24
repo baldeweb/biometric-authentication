@@ -22,7 +22,7 @@ class BiometricUtils {
         fun createBiometricPrompt(
                 activity: AppCompatActivity,
                 onAuthenticationError: (errorCode: Int, errString: CharSequence) -> Unit,
-                onAuthenticationFailed: () -> Unit,
+                onAuthenticationFailed: (() -> Unit)? = null,
                 onAuthenticationSucceeded: (result: BiometricPrompt.AuthenticationResult) -> Unit
         ): BiometricPrompt {
             return BiometricPrompt(
@@ -36,7 +36,7 @@ class BiometricUtils {
 
                         override fun onAuthenticationFailed() {
                             super.onAuthenticationFailed()
-                            onAuthenticationFailed.invoke()
+                            onAuthenticationFailed?.invoke()
                         }
 
                         override fun onAuthenticationSucceeded(result: BiometricPrompt.AuthenticationResult) {

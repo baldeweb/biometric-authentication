@@ -18,17 +18,12 @@ class FingerprintAuthenticationDialogFragment : DialogFragment() {
     private lateinit var sharedPreferences: SharedPreferences
     private lateinit var binding: FingerprintDialogContainerBinding
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        retainInstance = true
-        setStyle(STYLE_NORMAL, android.R.style.Theme_Material_Light_Dialog)
-    }
-
     override fun onCreateView(inflater: LayoutInflater,
                               container: ViewGroup?,
                               savedInstanceState: Bundle?
-    ): View? {
+    ): View {
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context)
+        setStyle(STYLE_NORMAL, android.R.style.Theme_Material_Light_Dialog)
         dialog?.setTitle(getString(R.string.sign_in))
         binding = FingerprintDialogContainerBinding.inflate(inflater, container, false)
         return binding.root
@@ -36,15 +31,12 @@ class FingerprintAuthenticationDialogFragment : DialogFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         binding.cancelButton.setText(R.string.cancel)
         binding.cancelButton.setOnClickListener { dismiss() }
-
         binding.secondDialogButton.setText(R.string.ok)
-
         binding.password.setOnEditorActionListener { _, actionId, _ ->
             return@setOnEditorActionListener if (actionId == EditorInfo.IME_ACTION_GO) {
-                verifyPassword();
+                verifyPassword()
                 true
             } else {
                 false
@@ -53,21 +45,12 @@ class FingerprintAuthenticationDialogFragment : DialogFragment() {
         binding.secondDialogButton.setOnClickListener { verifyPassword() }
     }
 
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context)
-    }
-
     fun setCallback(callback: Callback) {
         this.callback = callback
     }
 
-    /**
-     * Checks whether the current entered password is correct, and dismisses the dialog and
-     * informs the activity about the result.
-     */
     private fun verifyPassword() {
-        if (!checkPassword(binding.password.text.toString())) return
+        if (binding.password.text.toString().isEmpty()) return
 
         if (binding.useFingerprintInFutureCheck.isChecked) {
             sharedPreferences.apply {
@@ -84,13 +67,4 @@ class FingerprintAuthenticationDialogFragment : DialogFragment() {
         dismiss()
     }
 
-    /**
-     * Checks if the given password is valid. Assume that the password is always correct.
-     * In a real world situation, the password needs to be verified via the server.
-     *
-     * @param password The password String
-     *
-     * @return true if `password` is correct, false otherwise
-     */
-    private fun checkPassword(password: String) = password.isNotEmpty()
 }
